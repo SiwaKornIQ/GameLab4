@@ -9,8 +9,12 @@ This starter kit provides all the essential mechanics needed to build a complete
 
 <img src="docs/qrcode.png" style="width:300px;" />
 
-- [Game Preview](https://computingkku.github.io/2D-Platformer-Starter-Kit/)
+<img src="docs/demo1.jpg" width="300">
+<img src="docs/demo2.jpg" width="300">
 
+
+- [Game Preview](https://siwakorniq.github.io/GameLab4/))
+- [VDO Demo](https://drive.google.com/file/d/1oIfvbiYwTgmpWxkJOJHDfG5qSchXuGI_/view?usp=sharing)
 
 ## Features
 
