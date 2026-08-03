@@ -19,6 +19,7 @@ position = Vector2(1592, 400)
 [node name="Background1" type="Parallax2D" parent="Level" unique_id=1072429833]
 z_index = -10
 scroll_scale = Vector2(0.1, 0.1)
+scroll_offset = Vector2(25, 0)
 repeat_size = Vector2(1152, 0)
 repeat_times = 2
 
