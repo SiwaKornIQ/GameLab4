@@ -9,8 +9,8 @@ This starter kit provides all the essential mechanics needed to build a complete
 
 <img src="docs/qrcode.png" style="width:300px;" />
 
-<img src="docs/demo1.jpg" width="300">
-<img src="docs/demo2.jpg" width="300">
+<img src="docs/demo1.png" width="300">
+<img src="docs/demo2.png" width="300">
 
 
 - [Game Preview](https://siwakorniq.github.io/GameLab4/))
