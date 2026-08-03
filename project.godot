@@ -44,10 +44,6 @@ window/stretch/mode="canvas_items"
 
 project/assembly_name="2D-Platformer-Starter"
 
-[editor]
-
-movie_writer/movie_file="D:/gamedev/GameLab4/VDO_demo.avi"
-
 [editor_plugins]
 
 enabled=PackedStringArray()
