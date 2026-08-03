@@ -1,18 +1,18 @@
 [gd_scene format=4 uid="uid://dekkdb3a0eifd"]
 
-[ext_resource type="PackedScene" uid="uid://bjntpxb1c8jxn" path="res://Scenes/Levels/base_level.tscn" id="1_l0dwn"]
-[ext_resource type="PackedScene" uid="uid://cppg5yoxwv0dy" path="res://Scenes/Levels/Level_02.tscn" id="2_5vjlm"]
-[ext_resource type="Texture2D" uid="uid://bmd332l88ab0n" path="res://Assets/BG/platformerPack_industrial_tilesheet.png" id="3_1bssr"]
-[ext_resource type="PackedScene" uid="uid://cb8e62red7kc0" path="res://Scenes/Prefabs/trap_1.tscn" id="3_bmcj7"]
-[ext_resource type="PackedScene" uid="uid://bfmh3fm2de78o" path="res://Scenes/Prefabs/Coin.tscn" id="3_dbq10"]
-[ext_resource type="Texture2D" uid="uid://dwxcmxvwu74xk" path="res://Assets/BG/orig_big.png" id="4_1bssr"]
-[ext_resource type="PackedScene" uid="uid://bp4l1nlnh8oq1" path="res://Scenes/Prefabs/trap_2.tscn" id="5_qelns"]
-[ext_resource type="PackedScene" uid="uid://dabag2r57aued" path="res://Scenes/Prefabs/heal_potion.tscn" id="6_mb1if"]
-[ext_resource type="Theme" uid="uid://d3eng5cvycmjf" path="res://Scenes/Prefabs/theme.tres" id="6_taws2"]
-[ext_resource type="PackedScene" uid="uid://b48s52q3f64kl" path="res://Scenes/Actors/monster_mushroom.tscn" id="7_mb1if"]
+[ext_resource type="PackedScene" uid="uid://bjntpxb1c8jxn" path="res://Scenes/Levels/base_level.tscn" id="1_qelns"]
+[ext_resource type="PackedScene" uid="uid://cppg5yoxwv0dy" path="res://Scenes/Levels/level_02.tscn" id="2_j0t0u"]
+[ext_resource type="Texture2D" uid="uid://bmd332l88ab0n" path="res://Assets/BG/platformerPack_industrial_tilesheet.png" id="3_g38v2"]
+[ext_resource type="Texture2D" uid="uid://dwxcmxvwu74xk" path="res://Assets/BG/orig_big.png" id="4_ge2ro"]
+[ext_resource type="PackedScene" uid="uid://cb8e62red7kc0" path="res://Scenes/Prefabs/trap_1.tscn" id="5_flehy"]
+[ext_resource type="PackedScene" uid="uid://bp4l1nlnh8oq1" path="res://Scenes/Prefabs/trap_2.tscn" id="6_fj6kk"]
+[ext_resource type="PackedScene" uid="uid://dabag2r57aued" path="res://Scenes/Prefabs/heal_potion.tscn" id="7_uvcnl"]
+[ext_resource type="PackedScene" uid="uid://bfmh3fm2de78o" path="res://Scenes/Prefabs/Coin.tscn" id="8_6ag6h"]
+[ext_resource type="PackedScene" uid="uid://b48s52q3f64kl" path="res://Scenes/Actors/monster_mushroom.tscn" id="9_md046"]
+[ext_resource type="Theme" uid="uid://d3eng5cvycmjf" path="res://Scenes/Prefabs/theme.tres" id="10_7j1n4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aksfc"]
-texture = ExtResource("3_1bssr")
+texture = ExtResource("3_g38v2")
 texture_region_size = Vector2i(70, 70)
 5:0/0 = 0
 8:0/0 = 0
@@ -1376,11 +1376,11 @@ tile_size = Vector2i(70, 70)
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_aksfc")
 
-[node name="BaseLevel" unique_id=1997201631 instance=ExtResource("1_l0dwn")]
+[node name="BaseLevel" unique_id=1997201631 instance=ExtResource("1_qelns")]
 
 [node name="LevelFinishDoor" parent="." index="0" unique_id=1788542095]
 position = Vector2(1420, 371)
-next_scene = ExtResource("2_5vjlm")
+next_scene = ExtResource("2_j0t0u")
 
 [node name="Background1" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="0" unique_id=1072429833]
 metadata/_edit_lock_ = true
@@ -1395,47 +1395,47 @@ metadata/_edit_lock_ = true
 [node name="OrigBig" type="Sprite2D" parent="Level/Background2" index="0" unique_id=436391521]
 position = Vector2(552.0423, 358)
 scale = Vector2(0.5529146, 0.57137346)
-texture = ExtResource("4_1bssr")
+texture = ExtResource("4_ge2ro")
 metadata/_edit_lock_ = true
 
-[node name="Trap1" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="3" unique_id=242563240 instance=ExtResource("3_bmcj7")]
+[node name="Trap1" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="3" unique_id=242563240 instance=ExtResource("5_flehy")]
 position = Vector2(414, 520)
 
-[node name="Trap2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="4" unique_id=212853376 instance=ExtResource("3_bmcj7")]
+[node name="Trap2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="4" unique_id=212853376 instance=ExtResource("5_flehy")]
 position = Vector2(497, 525)
 
-[node name="Trap3" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="5" unique_id=1894763376 instance=ExtResource("5_qelns")]
+[node name="Trap3" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="5" unique_id=1894763376 instance=ExtResource("6_fj6kk")]
 position = Vector2(540, 211)
 
-[node name="Trap4" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="6" unique_id=1970758885 instance=ExtResource("5_qelns")]
+[node name="Trap4" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="6" unique_id=1970758885 instance=ExtResource("6_fj6kk")]
 position = Vector2(1037, 190)
 rotation = 4.712389
 
-[node name="HealPotion" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="0" unique_id=1169891267 instance=ExtResource("6_mb1if")]
+[node name="HealPotion" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="0" unique_id=1169891267 instance=ExtResource("7_uvcnl")]
 position = Vector2(1025, 374)
 
-[node name="Coin" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="1" unique_id=251510796 instance=ExtResource("3_dbq10")]
+[node name="Coin" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="1" unique_id=251510796 instance=ExtResource("8_6ag6h")]
 position = Vector2(454.99997, 295.99997)
 rotation = 0.2617994
 
-[node name="Coin2" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="2" unique_id=959644230 instance=ExtResource("3_dbq10")]
+[node name="Coin2" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="2" unique_id=959644230 instance=ExtResource("8_6ag6h")]
 position = Vector2(455, 342)
 
-[node name="Coin3" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="3" unique_id=1453669841 instance=ExtResource("3_dbq10")]
+[node name="Coin3" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="3" unique_id=1453669841 instance=ExtResource("8_6ag6h")]
 position = Vector2(881, 267)
 
-[node name="Coin4" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="4" unique_id=941174960 instance=ExtResource("3_dbq10")]
+[node name="Coin4" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="4" unique_id=941174960 instance=ExtResource("8_6ag6h")]
 position = Vector2(927, 267)
 
-[node name="Enemy" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="0" unique_id=600502477 instance=ExtResource("7_mb1if")]
+[node name="Enemy" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="0" unique_id=600502477 instance=ExtResource("9_md046")]
 position = Vector2(768, 401)
 speed = 30.0
 
-[node name="Enemy4" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="1" unique_id=1374649901 instance=ExtResource("7_mb1if")]
+[node name="Enemy4" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="1" unique_id=1374649901 instance=ExtResource("9_md046")]
 position = Vector2(1163, 318)
 speed = 30.0
 
-[node name="Enemy3" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="2" unique_id=265544775 instance=ExtResource("7_mb1if")]
+[node name="Enemy3" parent="Enemies" parent_id_path=PackedInt32Array(1580630701) index="2" unique_id=265544775 instance=ExtResource("9_md046")]
 position = Vector2(299, 480)
 speed = 50.0
 
@@ -1455,7 +1455,7 @@ offset_left = -57.0
 offset_top = 105.0
 offset_right = 285.0
 offset_bottom = 234.0
-theme = ExtResource("6_taws2")
+theme = ExtResource("10_7j1n4")
 text = "นี่เป็นด่านตัวอย่าง
 A D เพื่อเดิน
 Space กระโดด
@@ -1466,7 +1466,7 @@ offset_left = 984.0
 offset_top = 267.0
 offset_right = 1241.0
 offset_bottom = 318.0
-theme = ExtResource("6_taws2")
+theme = ExtResource("10_7j1n4")
 text = "เข้าประตูเพื่อไปด่านต่อไป"
 
 [node name="Label3" type="Label" parent="Text" parent_id_path=PackedInt32Array(416249055) index="2" unique_id=2099774084]
@@ -1474,5 +1474,5 @@ offset_left = 328.0
 offset_top = 524.0
 offset_right = 585.0
 offset_bottom = 575.0
-theme = ExtResource("6_taws2")
+theme = ExtResource("10_7j1n4")
 text = "กระโดดข้ามเครื่องบด"
