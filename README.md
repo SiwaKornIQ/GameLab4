@@ -5,9 +5,11 @@
 
 This starter kit provides all the essential mechanics needed to build a complete 2D platformer game in Godot 4.7. It is designed as a hands-on learning resource for students taking the **Computer Game Development** course at the **College of Computing, Khon Kaen University**.
 
-## Preview
+#Story
 
-<img src="docs/qrcode.png" style="width:300px;" />
+This is a story about a man who adventure in post-apocalyptic world. He has to survive and find bunker to be new house. The world is dangerous, not only environment but there are savage drones outside bunker.
+
+## Preview
 
 <img src="docs/demo1.png" width="300">
 <img src="docs/demo2.png" width="300">
